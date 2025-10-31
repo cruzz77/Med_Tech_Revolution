@@ -13,7 +13,7 @@ This project aims to simplify hospital operations such as managing patients, doc
 
  💻 Frontend
 - React.js (Vite)** for the user interface
-- Axios** for API communication
+- Axios for API communication
 - React Router DOM** for navigation
 
 ---
@@ -23,23 +23,23 @@ Hospital-Management-System/
 │
 ├── backend/
 │ ├── src/
-│ │ ├── controllers/ # Route controllers (logic)
-│ │ ├── middlewares/ # Auth and error handling
-│ │ ├── routes/ # API routes
-│ │ ├── prisma/ # Prisma schema and seed files
-│ │ ├── utils/ # JWT, async handler, etc.
-│ │ ├── config/ # DB and environment setup
-│ │ ├── app.js # Express app setup
-│ │ └── server.js # Entry point
+│ │ ├── controllers/ 
+│ │ ├── middlewares/ 
+│ │ ├── routes/ 
+│ │ ├── prisma/ 
+│ │ ├── utils/ 
+│ │ ├── config/ 
+│ │ ├── app.js 
+│ │ └── server.js 
 │ ├── package.json
 │ └── .env
 │
 ├── frontend/
 │ ├── src/
-│ │ ├── components/ # Reusable UI components
-│ │ ├── pages/ # Pages (Dashboard, Login, etc.)
-│ │ ├── context/ # Global context management
-│ │ ├── services/ # API integration via Axios
+│ │ ├── components/ 
+│ │ ├── pages/ 
+│ │ ├── context/ 
+│ │ ├── services/ 
 │ │ ├── App.js
 │ │ └── main.jsx
 │ ├── package.json
