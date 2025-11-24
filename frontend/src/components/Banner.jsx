@@ -15,12 +15,15 @@ const Banner = () => {
                     <p>Book Appointment</p>
                     <p className='mt-4'>With 100+ Trusted Doctors</p>
                 </div>
+                {/* Button to navigate to login and scroll to the top */}
                 <button onClick={() => { navigate('/login'); scrollTo(0, 0) }} className='bg-white text-sm sm:text-base text-gray-600 px-8 py-3 rounded-full mt-6 hover:scale-105 transition-all '>Create account</button>
             </div>
 
-            {/* ------- Right Side ------- */}
+            {/* ------- Right Side (Image) ------- */}
+            {/* Hidden on small screens, block on medium screens and up */}
             <div className='hidden md:block md:w-1/2 lg:w-[370px] relative'>
-                <img className='w-full absolute bottom-0 right-0 max-w-md' src={assets.appointment_img} alt="" />
+                {/* The doctor image, positioned at the bottom right */}
+                <img className='w-full absolute bottom-0 right-0 max-w-md' src={assets.appointment_img} alt="Doctor figure for appointment booking" />
             </div>
         </div>
     )
