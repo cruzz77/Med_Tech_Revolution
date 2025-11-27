@@ -10,7 +10,7 @@ import adminRouter from "./routes/adminRoute.js";
 mongoose.set('strictQuery', false);
 
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 2000;
 
 app.use(express.json());
 app.use(cors());
