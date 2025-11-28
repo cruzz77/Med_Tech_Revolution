@@ -1,56 +1,30 @@
 import React from 'react'
 import { assets } from '../assets/assets'
-import { useNavigate } from 'react-router-dom'
-import nileshImage from '../assets/nilesh.png' // Your imported image
 
-const Banner = () => {
-
-    const navigate = useNavigate()
-
+const Header = () => {
     return (
-        // Added shadow-xl for depth, increased vertical margin (my-28)
-        <div className='flex bg-primary rounded-xl overflow-hidden shadow-xl px-6 sm:px-10 md:px-12 lg:px-16 my-28 md:mx-10'>
-         
-            {/* ------- Left Side (Text & Button) ------- */}
-            <div className='flex-1 py-12 sm:py-16 md:py-20 lg:py-24 lg:pr-10'>
-                
-                {/* Heading with improved font-weight and line-height for readability */}
-                <div className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight'>
-                    <p>Book Appointment</p>
-                    <p className='mt-2'>With 100+ Trusted Doctors</p>
-                </div>
-                
-                {/* Subtext/Slogan */}
-                <p className='text-gray-200 mt-4 md:mt-6 text-base sm:text-lg max-w-sm'>
-                    Find the perfect specialist for your needs and schedule your visit hassle-free.
-                </p>
+        <div className='flex flex-col md:flex-row flex-wrap bg-primary rounded-lg px-6 md:px-10 lg:px-20 '>
 
-                {/* Button styling refined for better contrast and effect */}
-                <button 
-                    onClick={() => { navigate('/login'); scrollTo(0, 0) }} 
-                    className='bg-white text-base sm:text-lg text-primary font-semibold px-10 py-3 rounded-full mt-8 hover:bg-gray-100 transform hover:scale-[1.02] transition-all duration-300'
-                >
-                    Create account
-                </button>
+            {/* --------- Header Left --------- */}
+            <div className='md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]'>
+                <p className='text-3xl md:text-4xl lg:text-5xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight'>
+                    Book Appointment <br />  With Trusted Doctors
+                </p>
+                <div className='flex flex-col md:flex-row items-center gap-3 text-white text-sm font-light'>
+                    <img className='w-28' src={assets.group_profiles} alt="" />
+                    <p>Simply browse through our extensive list of trusted doctors, <br className='hidden sm:block' /> schedule your appointment hassle-free.</p>
+                </div>
+                <a href='#speciality' className='flex items-center gap-2 bg-white px-8 py-3 rounded-full text-[#595959] text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300'>
+                    Book appointment <img className='w-3' src={assets.arrow_icon} alt="" />
+                </a>
             </div>
 
-            {/* ------- Right Side (Image) ------- */}
-            {/* Container adjusted: set a fixed aspect ratio or a clear height for better control */}
-            <div className='hidden md:flex md:w-1/2 lg:w-[450px] relative items-end'>
-                
-                {/* Image sizing and positioning: 
-                    - h-full: Ensures the image takes the full height of the container.
-                    - object-cover: Ensures the image covers the area without distortion (can crop).
-                    - max-w-none: Prevents max-width limitations, allowing it to scale with the container.
-                */}
-                <img 
-                    className='w-full h-full object-cover absolute bottom-0 right-0 max-w-none' 
-                    src={nileshImage} 
-                    alt="Trusted Doctor" 
-                />
+            {/* --------- Header Right --------- */}
+            <div className='md:w-1/2 relative'>
+                <img className='w-full md:absolute bottom-0 h-auto rounded-lg' src={assets.header_img} alt="" />
             </div>
         </div>
     )
 }
 
-export default Banner
+export default Header
