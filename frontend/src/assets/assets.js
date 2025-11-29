@@ -1,10 +1,10 @@
 import appointment_img from './appointment_img.png'
-import header_img from './nilesh.png'
+import header_img from './header_img.png'
 import group_profiles from './group_profiles.png'
 import profile_pic from './profile_pic.png'
 import contact_image from './contact_image.png'
 import about_image from './about_image.png'
-import logo from './logoe.png'
+import logo from './logo.svg'
 import dropdown_icon from './dropdown_icon.svg'
 import menu_icon from './menu_icon.svg'
 import cross_icon from './cross_icon.png'
@@ -88,7 +88,7 @@ export const specialityData = [
 export const doctors = [
     {
         _id: 'doc1',
-        name: 'Dr. Ankit kumar',
+        name: 'Dr. Richard James',
         image: doc1,
         speciality: 'General physician',
         degree: 'MBBS',
@@ -102,7 +102,7 @@ export const doctors = [
     },
     {
         _id: 'doc2',
-        name: 'Dr. shikha tiwari',
+        name: 'Dr. Emily Larson',
         image: doc2,
         speciality: 'Gynecologist',
         degree: 'MBBS',
@@ -116,7 +116,7 @@ export const doctors = [
     },
     {
         _id: 'doc3',
-        name: 'Dr. nilesh nand lal',
+        name: 'Dr. Sarah Patel',
         image: doc3,
         speciality: 'Dermatologist',
         degree: 'MBBS',
@@ -130,7 +130,7 @@ export const doctors = [
     },
     {
         _id: 'doc4',
-        name: 'Dr. soham goel',
+        name: 'Dr. Christopher Lee',
         image: doc4,
         speciality: 'Pediatricians',
         degree: 'MBBS',
@@ -144,7 +144,7 @@ export const doctors = [
     },
     {
         _id: 'doc5',
-        name: 'Dr. ranjani tripathi',
+        name: 'Dr. Jennifer Garcia',
         image: doc5,
         speciality: 'Neurologist',
         degree: 'MBBS',
@@ -158,7 +158,7 @@ export const doctors = [
     },
     {
         _id: 'doc6',
-        name: 'Dr. onkar dange',
+        name: 'Dr. Andrew Williams',
         image: doc6,
         speciality: 'Neurologist',
         degree: 'MBBS',
@@ -172,7 +172,7 @@ export const doctors = [
     },
     {
         _id: 'doc7',
-        name: 'Dr. jatin bisen',
+        name: 'Dr. Christopher Davis',
         image: doc7,
         speciality: 'General physician',
         degree: 'MBBS',
@@ -186,7 +186,7 @@ export const doctors = [
     },
     {
         _id: 'doc8',
-        name: 'Dr. laxman sharma',
+        name: 'Dr. Timothy White',
         image: doc8,
         speciality: 'Gynecologist',
         degree: 'MBBS',
@@ -200,7 +200,7 @@ export const doctors = [
     },
     {
         _id: 'doc9',
-        name: 'Dr. ramandeepa singh',
+        name: 'Dr. Ava Mitchell',
         image: doc9,
         speciality: 'Dermatologist',
         degree: 'MBBS',
@@ -214,7 +214,7 @@ export const doctors = [
     },
     {
         _id: 'doc10',
-        name: 'Dr. aditya chopra',
+        name: 'Dr. Jeffrey King',
         image: doc10,
         speciality: 'Pediatricians',
         degree: 'MBBS',
@@ -228,7 +228,7 @@ export const doctors = [
     },
     {
         _id: 'doc11',
-        name: 'Dr. shilpa kumari',
+        name: 'Dr. Zoe Kelly',
         image: doc11,
         speciality: 'Neurologist',
         degree: 'MBBS',
@@ -242,7 +242,7 @@ export const doctors = [
     },
     {
         _id: 'doc12',
-        name: 'Dr. onkit kumar yadav',
+        name: 'Dr. Patrick Harris',
         image: doc12,
         speciality: 'Neurologist',
         degree: 'MBBS',
@@ -256,7 +256,7 @@ export const doctors = [
     },
     {
         _id: 'doc13',
-        name: 'Dr. charandeep singh ',
+        name: 'Dr. Chloe Evans',
         image: doc13,
         speciality: 'General physician',
         degree: 'MBBS',
@@ -270,7 +270,7 @@ export const doctors = [
     },
     {
         _id: 'doc14',
-        name: 'Dr. jitendra deshmukh',
+        name: 'Dr. Ryan Martinez',
         image: doc14,
         speciality: 'Gynecologist',
         degree: 'MBBS',
@@ -284,7 +284,7 @@ export const doctors = [
     },
     {
         _id: 'doc15',
-        name: 'Dr. ankita kumari',
+        name: 'Dr. Amelia Hill',
         image: doc15,
         speciality: 'Dermatologist',
         degree: 'MBBS',
