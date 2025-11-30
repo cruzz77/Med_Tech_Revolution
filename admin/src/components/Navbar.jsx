@@ -11,6 +11,8 @@ const Navbar = () => {
 
   const navigate = useNavigate()
 
+  // LOGOUT FEATURE IMPLEMENTATION
+
   const logout = () => {
     navigate('/')
     dToken && setDToken('')
