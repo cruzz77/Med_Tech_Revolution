@@ -245,3 +245,13 @@ If you are interested in collaborating, contributing, or deploying HMS in your i
 ### 🎉 *If you like this project, don't forget to ⭐ star the repo!*
 ````md
 ````md
+
+📩 Contact
+
+For any project-related queries, improvements, or collaboration opportunities, feel free to reach out:
+
+👤 Soham Goel
+📞 +91 8010803803
+📧 soham.goel@adypu.edu.in
+
+🔗 GitHub: @goelsoham
