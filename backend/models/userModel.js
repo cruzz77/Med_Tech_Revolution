@@ -13,3 +13,12 @@ const userSchema = new mongoose.Schema({
 
 const userModel = mongoose.models.user || mongoose.model("user", userSchema);
 export default userModel;
+
+
+// importing mongoose from mongoose
+
+// name
+// image
+// phone
+// gender
+// password
