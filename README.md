@@ -91,33 +91,33 @@ HMS/
 
 ## 🛠 **Tech Stack**
 
-### **Frontend**
+Frontend
 - Vite
 - React
 - TailwindCSS
 - Axios (API requests)
 
-### **Backend**
+Backend**
 - Node.js
 - Express.js
 - Mongoose (ODM)
 - Bcrypt (password hashing)
 - JSON Web Tokens (JWT)
 
-### **Database & Storage**
+Database & Storage**
 - **MongoDB Atlas**
 - **Cloudinary** 
 
-### **Dev Tools**
+Dev Tools**
 - VS Code
 - Postman 
 - Git & GitHub
 
 
-## 📈 Project Development Flow  
+📈 Project Development Flow  
 A behind-the-scenes look at how the Hospital Management System (HMS) was planned, designed, and built.
 
-### 🟦 1. Problem Identification  
+ 🟦 1. Problem Identification  
 We began by identifying common issues in traditional hospital systems:
 - Manual appointment handling  
 - Fragmented doctor–patient communication  
@@ -127,9 +127,8 @@ We began by identifying common issues in traditional hospital systems:
 
 This helped us define the initial scope and vision.
 
----
 
-### 🟩 2. Requirement Gathering  
+🟩 2. Requirement Gathering  
 We listed requirements for all 3 user roles:
 
 **Patients:**  
@@ -149,9 +148,7 @@ We listed requirements for all 3 user roles:
 
 We converted these into actionable features.
 
----
-
-### 🟨 3. System Architecture Planning  
+ 🟨 3. System Architecture Planning  
 We decided to build:
 - **1 Backend API** → common for all users  
 - **2 Frontends (Vite + React):**  
@@ -161,9 +158,7 @@ We decided to build:
 
 We also defined our tech stack: MERN + Tailwind + JWT Authentication.
 
----
-
-### 🟧 4. UI/UX & Component Planning  
+ 🟧 4. UI/UX & Component Planning  
 We created simple wireframes for:
 - Login pages  
 - Patient dashboard  
@@ -173,9 +168,7 @@ We created simple wireframes for:
 Each UI was designed to match its role:  
 Minimal for users, data-heavy for doctors/admins.
 
----
-
-### 🟥 5. Backend Development  
+🟥 5. Backend Development  
 We built the backend first:
 - Authentication (JWT + bcrypt)  
 - Doctor model + profile management  
@@ -186,9 +179,7 @@ We built the backend first:
 
 Once the API was stable, we moved to the frontend.
 
----
-
-### 🟦 6. Frontend Development  
+ 🟦 6. Frontend Development  
 We built both frontends in parallel:
 
 Patient App (frontend/)
@@ -206,7 +197,7 @@ We used:
 - TailwindCSS  
 - Protected routes  
 
-### 🟪 7. Testing & Improvements  
+ 🟪 7. Testing & Improvements  
 We tested all flows end-to-end:  
 - Patient → Doctor → Admin  
 - Token expiry  
@@ -216,14 +207,14 @@ We tested all flows end-to-end:
 
 Multiple improvements were made from testing feedback.
 
-### 🟫 8. Deployment Plan (Ongoing)  
+🟫 8. Deployment Plan (Ongoing)  
 We are preparing for deployment using:
 - **Frontend:** Vercel / Netlify  
 - **Backend:** Render / Railway  
 - **Database:** MongoDB Atlas  
 - **Domain:** Optional custom domain for production
 
-### 🟩 9. Future Enhancements  
+🟩 9. Future Enhancements  
 Planned upgrades:
 - Real-time appointment updates (Socket.io)  
 - Doctor availability calendar  
@@ -231,7 +222,7 @@ Planned upgrades:
 - Email/SMS notifications  
 - Analytics dashboard for admin  
 
-### 🟧 10. Final Outcome  
+🟧 10. Final Outcome  
 A fully functional, role-based Hospital Management System with:
 - Clean UI  
 - Scalable backend  
@@ -240,11 +231,11 @@ A fully functional, role-based Hospital Management System with:
 - Modular architecture  
 
 
-## ⚙️ **Environment Variables Setup**
+⚙️Environment Variables Setup**
 
 Each app contains a **separate `.env` file**.
 
-### 🔹 **Backend (`backend/.env`)**
+🔹 **Backend (`backend/.env`)**
 
 ```env
 CURRENCY="INR"
@@ -260,8 +251,6 @@ CLOUDINARY_NAME="YOUR_CLOUDINARY_NAME"
 CLOUDINARY_API_KEY="YOUR_CLOUDINARY_API_KEY"
 CLOUDINARY_SECRET_KEY="YOUR_CLOUDINARY_SECRET"
 ```
-
----
 
 ## 📦 **Installation & Setup**
 
