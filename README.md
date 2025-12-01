@@ -363,11 +363,17 @@ If you are interested in collaborating, contributing, or deploying HMS in your i
 
 For any project-related queries, improvements, or collaboration opportunities, feel free to reach out:
 
-👤 Soham Goel
-📞 +91 8010803803
+👤 Soham Goel 👤 Aditya Chopra 👤 Nilesh Nand Lal 👤 Ankit Kumar
+📞 +91 80********
 📧 soham.goel@adypu.edu.in
+📧 aditya.chopra@gmail.com
+📧 nilesh.nandlal@adypu.edu.in
+📧 ankit.kumar2@adypu.edu.in
 
 🔗 GitHub: @goelsoham
+🔗 GitHub: @cruzz77
+🔗 GitHub: @NEELxJUSTICE
+🔗 GitHub: @Ankit-bit-cyber
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen" />
