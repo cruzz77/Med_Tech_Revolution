@@ -244,7 +244,6 @@ If you are interested in collaborating, contributing, or deploying HMS in your i
 
 ### 🎉 *If you like this project, don't forget to ⭐ star the repo!*
 ````md
-````md
 
 📩 Contact
 
