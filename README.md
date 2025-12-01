@@ -255,3 +255,11 @@ For any project-related queries, improvements, or collaboration opportunities, f
 📧 soham.goel@adypu.edu.in
 
 🔗 GitHub: @goelsoham
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen" />
+  <img src="https://img.shields.io/badge/License-MIT-blue" />
+  <img src="https://img.shields.io/badge/MERN-Stack-success" />
+  <img src="https://img.shields.io/badge/Vite-Frontend-orange" />
+</p>
+
