@@ -3,9 +3,24 @@
 
 ---
 
-## 📖 **About The Project**
+🖥️ Dashboard Overview
 
-The **Hospital Management System (HMS)** is a full-stack web application designed to connect **Patients (Users), Doctors, and Hospital Admins** using a **single backend API**, while keeping **isolated frontend Vite apps per role**, each with its own `.env` configuration.
+The Hospital Management System (HMS) includes three powerful dashboards — each tailored for the role accessing it.
+Every dashboard is built to be clean, fast, and task-oriented, giving each user exactly what they need without complexity.
+
+👤 Patient Dashboard
+
+A user-friendly interface where patients can:
+
+🔍 Search and discover doctors
+
+📅 Book upcoming appointment slots
+
+📜 View appointment history
+
+📝 Edit profile & medical information
+
+💬 (Upcoming) Chat with doctors in real-time
 
 ## 👥 Authors
 - **Aditya Chopra** – @cruzz77  
