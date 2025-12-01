@@ -36,6 +36,23 @@ Doctors get a clean and organized view of their daily workflow:
 
 🔄 View real-time appointment updates
 
+🏢 Admin Dashboard
+
+The Admin Dashboard is the control center of the entire HMS system.
+
+Admins can:
+
+🧑‍⚕️ Manage doctors (add, update, remove)
+
+👤 Manage patients
+
+📅 Track appointment traffic and analytics
+
+🗄️ Maintain hospital-wide configuration
+
+🔒 Oversee security and role permissions
+
+
 
 
 ## 👥 Authors
