@@ -220,7 +220,7 @@ Multiple improvements were made from testing feedback.
 
 ---
 
-### 🟫 8. Deployment Plan (Ongoing)  
+### 🟫 8. 
 We are preparing for deployment using:
 - **Frontend:** Vercel / Netlify  
 - **Backend:** Render / Railway  
