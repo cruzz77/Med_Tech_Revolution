@@ -191,12 +191,12 @@ Once the API was stable, we moved to the frontend.
 ### 🟦 6. Frontend Development  
 We built both frontends in parallel:
 
-#### **Patient App (frontend/)**  
+Patient App (frontend/)
 - Doctor listing  
 - Slot booking  
 - Profile management  
 
-#### **Admin/Doctor Dashboard (admin/)**  
+Admin/Doctor Dashboard (admin/)
 - Admin: Manage doctors + appointments  
 - Doctor: View appointments, update status  
 
@@ -205,8 +205,6 @@ We used:
 - Axios  
 - TailwindCSS  
 - Protected routes  
-
----
 
 ### 🟪 7. Testing & Improvements  
 We tested all flows end-to-end:  
@@ -218,9 +216,7 @@ We tested all flows end-to-end:
 
 Multiple improvements were made from testing feedback.
 
----
-
-### 🟫 8. 
+### 🟫 8. Deployment Plan (Ongoing)  
 We are preparing for deployment using:
 - **Frontend:** Vercel / Netlify  
 - **Backend:** Render / Railway  
@@ -234,8 +230,6 @@ Planned upgrades:
 - Payment gateway  
 - Email/SMS notifications  
 - Analytics dashboard for admin  
-
----
 
 ### 🟧 10. Final Outcome  
 A fully functional, role-based Hospital Management System with:
