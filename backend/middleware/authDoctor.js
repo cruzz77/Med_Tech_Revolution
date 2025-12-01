@@ -16,5 +16,7 @@ const authDoctor = async (req, res, next) => {
     }
 }
 
+export default authDoctor;
+
 
 // #exporting default auth and jwt tocken from json web tokens
