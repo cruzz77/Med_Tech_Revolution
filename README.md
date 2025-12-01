@@ -110,7 +110,6 @@ Database & Storage**
 
 Dev Tools**
 - VS Code
-- Postman 
 - Git & GitHub
 
 
