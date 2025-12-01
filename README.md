@@ -22,6 +22,22 @@ A user-friendly interface where patients can:
 
 💬 (Upcoming) Chat with doctors in real-time
 
+🧑‍⚕️ Doctor Dashboard
+
+Doctors get a clean and organized view of their daily workflow:
+
+📅 Manage all patient appointments
+
+⏳ See pending, ongoing, and completed visits
+
+🗂 Access patient records in one click
+
+📝 Update profile, qualifications, and availability
+
+🔄 View real-time appointment updates
+
+
+
 ## 👥 Authors
 - **Aditya Chopra** – @cruzz77  
 - **Soham Goel** – @goelsoham  
