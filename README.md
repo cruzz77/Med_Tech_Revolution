@@ -225,10 +225,26 @@ We are preparing for deployment using:
 - **Frontend:** Vercel / Netlify  
 - **Backend:** Render / Railway  
 - **Database:** MongoDB Atlas  
-- **Domain:** Optional custom domain for production  
+- **Domain:** Optional custom domain for production
 
+### 🟩 9. Future Enhancements  
+Planned upgrades:
+- Real-time appointment updates (Socket.io)  
+- Doctor availability calendar  
+- Payment gateway  
+- Email/SMS notifications  
+- Analytics dashboard for admin  
 
 ---
+
+### 🟧 10. Final Outcome  
+A fully functional, role-based Hospital Management System with:
+- Clean UI  
+- Scalable backend  
+- Secure authentication  
+- Cloud storage  
+- Modular architecture  
+
 
 ## ⚙️ **Environment Variables Setup**
 
