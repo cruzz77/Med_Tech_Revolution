@@ -7,6 +7,13 @@
 
 The **Hospital Management System (HMS)** is a full-stack web application designed to connect **Patients (Users), Doctors, and Hospital Admins** using a **single backend API**, while keeping **isolated frontend Vite apps per role**, each with its own `.env` configuration.
 
+## 👥 Authors
+- **Aditya Chopra** – @cruzz77  
+- **Soham Goel** – @goelsoham  
+- **Ankit Kumar** – @Ankit-bit-cyber  
+- **Nilesh Nand Lal** – @NEELxjustice  
+
+
 ---
 
 ## ⚡ **Key Features**
