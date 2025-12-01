@@ -149,11 +149,10 @@ We converted these into actionable features.
 
  🟨 3. System Architecture Planning  
 We decided to build:
-- **1 Backend API** → common for all users  
-- **2 Frontends (Vite + React):**  
+- 2 Frontends (Vite + React):**  
   - Patient App  
   - Admin/Doctor Dashboard  
-- **Cloud integrations:** MongoDB Atlas + Cloudinary  
+- Cloud integrations:  MongoDB Atlas + Cloudinary  
 
 We also defined our tech stack: MERN + Tailwind + JWT Authentication.
 
@@ -251,9 +250,9 @@ CLOUDINARY_API_KEY="YOUR_CLOUDINARY_API_KEY"
 CLOUDINARY_SECRET_KEY="YOUR_CLOUDINARY_SECRET"
 ```
 
-## 📦 **Installation & Setup**
+## 📦 Installation & Setup**
 
-### 1️⃣ **Clone the repository**
+### 1️⃣Clone the repository**
 
 ```bash
 git clone https://github.com/cruzz77/Med_Tech_Revolution
@@ -263,7 +262,7 @@ cd Med_Tech_Revolution
 
 ---
 
-### 2️⃣ **Setup Backend**
+### 2️⃣ Setup Backend**
 
 ```bash
 cd backend
@@ -288,7 +287,7 @@ npm run dev
 
 ---
 
-### 4️⃣ **Setup Admin/Doctor Dashboard Frontend**
+### 4️⃣ Setup Admin/Doctor Dashboard Frontend**
 
 ```bash
 cd ../admin
@@ -316,7 +315,7 @@ admin/.env
 
 ---
 
-## 👨‍⚕️ **Roles Routing Logic**
+## 👨‍⚕️ Roles Routing Logic**
 
 | Role | Frontend App | Route Path |
 |------|-------------|------------|
